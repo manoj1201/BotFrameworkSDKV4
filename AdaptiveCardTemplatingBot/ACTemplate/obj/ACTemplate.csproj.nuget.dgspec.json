@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\CommunityWork\\BootCamp\\2020\\Bangalore\\ACTemplate\\ACTemplate\\ACTemplate.csproj": {}
+  },
+  "projects": {
+    "C:\\CommunityWork\\BootCamp\\2020\\Bangalore\\ACTemplate\\ACTemplate\\ACTemplate.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\CommunityWork\\BootCamp\\2020\\Bangalore\\ACTemplate\\ACTemplate\\ACTemplate.csproj",
+        "projectName": "ACTemplate",
+        "projectPath": "C:\\CommunityWork\\BootCamp\\2020\\Bangalore\\ACTemplate\\ACTemplate\\ACTemplate.csproj",
+        "packagesPath": "C:\\Users\\M1023845\\.nuget\\packages\\",
+        "outputPath": "C:\\CommunityWork\\BootCamp\\2020\\Bangalore\\ACTemplate\\ACTemplate\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\M1023845\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AdaptiveCards.Templating": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.Bot.Builder.Integration.AspNet.Core": {
+              "target": "Package",
+              "version": "[4.10.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
